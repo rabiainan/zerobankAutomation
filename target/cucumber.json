@@ -1,0 +1,283 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 7445865700,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "the user is on the login page",
+            "match": {
+              "location": "LoginStepDefs.the_user_is_on_the_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1577187700,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "the user logs in  using \"username\" and \"password\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"username\"",
+                  "offset": 24
+                },
+                {
+                  "val": "\"password\"",
+                  "offset": 39
+                }
+              ],
+              "location": "LoginStepDefs.the_user_logs_in_using_and(String,String)"
+            },
+            "keyword": "When "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-01-29T12:43:49.194Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1211800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 6,
+        "name": "Account summary page title",
+        "description": "",
+        "id": "account-summary-features;account-summary-page-title",
+        "after": [
+          {
+            "result": {
+              "duration": 660376500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 14663800,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "the page title should be \"Zero - Account Summary\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Zero - Account Summary\"",
+                  "offset": 25
+                }
+              ],
+              "location": "AccountSummaryStepDefs.the_page_title_should_be(String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@wip"
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 6386140300,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "the user is on the login page",
+            "match": {
+              "location": "LoginStepDefs.the_user_is_on_the_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1421734500,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "the user logs in  using \"username\" and \"password\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"username\"",
+                  "offset": 24
+                },
+                {
+                  "val": "\"password\"",
+                  "offset": 39
+                }
+              ],
+              "location": "LoginStepDefs.the_user_logs_in_using_and(String,String)"
+            },
+            "keyword": "When "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-01-29T12:43:58.989Z",
+        "before": [
+          {
+            "result": {
+              "duration": 348200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 11,
+        "name": "the user check account types and credit accounts table columns",
+        "description": "",
+        "id": "account-summary-features;the-user-check-account-types-and-credit-accounts-table-columns",
+        "after": [
+          {
+            "result": {
+              "duration": 1139125600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 11572100,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "the page title should be \"Zero - Account Summary\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Zero - Account Summary\"",
+                  "offset": 25
+                }
+              ],
+              "location": "AccountSummaryStepDefs.the_page_title_should_be(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 111434800,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "account type should be as listed below",
+            "match": {
+              "location": "AccountSummaryStepDefs.account_type_should_be_as_listed_below(String\u003e)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "Cash Accounts"
+                ]
+              },
+              {
+                "cells": [
+                  "Investment Accounts"
+                ]
+              },
+              {
+                "cells": [
+                  "Credit Accounts"
+                ]
+              },
+              {
+                "cells": [
+                  "Loan Accounts"
+                ]
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 68219100,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "credit accounts table should have the columns as lited below",
+            "match": {
+              "location": "AccountSummaryStepDefs.credit_accounts_table_should_have_the_columns_as_lited_below(String\u003e)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "Account"
+                ]
+              },
+              {
+                "cells": [
+                  "Credit Card"
+                ]
+              },
+              {
+                "cells": [
+                  "Balance"
+                ]
+              }
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@wip"
+          }
+        ]
+      }
+    ],
+    "name": "Account Summary Features",
+    "description": "",
+    "id": "account-summary-features",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/AccountSummary.feature",
+    "tags": [
+      {
+        "name": "@wip",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 3
+        }
+      }
+    ]
+  }
+]
